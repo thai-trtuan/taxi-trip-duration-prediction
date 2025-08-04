@@ -2,11 +2,13 @@
 
 This project aims to predict the duration of taxi trips in New York City using real-world pickup and dropoff data. The dataset was sourced from Kaggle and contains features such as passenger count, trip distance, pickup datetime, and geolocation coordinates.
 
+
 ## 📊 Objective
 
 - Understand how various factors affect trip duration
 - Perform exploratory data analysis (EDA)
 - Train and evaluate regression models
+
 
 ## 🗃️ Dataset
 
@@ -19,12 +21,14 @@ This project aims to predict the duration of taxi trips in New York City using r
   - `dropoff_longitude`, `dropoff_latitude`
   - `store_and_fwd_flag`
 
+
 ## ⚙️ Technologies Used
 
 - Python
 - pandas, numpy
 - matplotlib, seaborn
 - scikit-learn
+
 
 ## 🤖 Models Implemented
 
@@ -36,13 +40,14 @@ This project aims to predict the duration of taxi trips in New York City using r
 
 📌 **Random Forest** performed best among the three models.
 
+
 ## 📈 Evaluation Metrics
 
 - RMSE (Root Mean Squared Error)
 - R² Score
 - Visual comparison of predicted vs actual trip duration
 
-## ▶️ Run the Project
 
-```bash
-python train_model.py
+## 📜 License
+
+This project is for academic purposes. Feel free to use the code with attribution.
